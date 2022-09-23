@@ -30,20 +30,21 @@ public class VarifySignup extends BaseClass {
 	
 
 	Select s1=new Select(sp.componycountry());
-	s1.selectByVisibleText("Aruba");
 	
-	Thread.sleep(5000);
+	s1.selectByVisibleText("Japan");
+	
 	Select s2=new Select(sp.componyemployee());
+	
 	s2.selectByIndex(2);
 	
 	
-	sp.email().sendKeys("abc@gmail.com");
+	sp.email().sendKeys(Constants.email);
 	
-	sp.lastname().sendKeys("k");
+	sp.lastname().sendKeys(Constants.lastname);
 
-	sp.phone().sendKeys("1234567890");
+	sp.phone().sendKeys(Constants.phone);
 	
-	sp.componyname().sendKeys("Gulmohar");
+	sp.componyname().sendKeys(Constants.componyname);
 	
 	sp.checkbox().click();
 	

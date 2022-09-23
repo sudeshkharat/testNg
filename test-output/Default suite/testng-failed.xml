@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.VarifyingLoginPage">
+      <class name="testcases.VarifySignup">
         <methods>
-          <include name="loginvarification" invocation-numbers="0 1"/>
+          <include name="signup"/>
           <include name="browserlaunch"/>
           <include name="closebrowser"/>
         </methods>
-      </class> <!-- testcases.VarifyingLoginPage -->
+      </class> <!-- testcases.VarifySignup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

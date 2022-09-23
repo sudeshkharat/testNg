@@ -9,16 +9,26 @@ public class signuppage_object {
 	public WebDriver driver;
 	
 	By firstname=By.xpath("//input[@name='UserFirstName']");
+	
 	By lastname=By.xpath("//input[@name='UserLastName']");
+	
 	By jobtitle=By.xpath("//select[@name='UserTitle']");
+	
 	By componyname=By.xpath("//input[@name='CompanyName']");
+	
 	By phone=By.xpath("//input[@name='UserPhone']");
+	
 	By CompanyEmployees=By.xpath("//select[@name='CompanyEmployees']");
+	
 	By email=By.xpath("//input[@name='UserEmail']");
+	
 	By CompanyCountry=By.xpath("//select[@name='CompanyCountry']");
+	
 	By checkbox=By.xpath("(//div[@class='checkbox-ui'])[1]");
+	
+	
+	
 	public signuppage_object(WebDriver driver2) {
-		// TODO Auto-generated constructor stub
 		this.driver=driver2;
 	}
 

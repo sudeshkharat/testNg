@@ -14,14 +14,10 @@ public class LogInPage_Object {
 	
 	private By logIn=By.xpath("//input[@name='Login']");
 			
-			
-	
-	
-	By tryfree=By.xpath("//a[@id='signup_link']");
+	private By tryfree=By.xpath("//a[@id='signup_link']");
 	
 			
 	public LogInPage_Object(WebDriver driver2) {
-		// TODO Auto-generated constructor stub
 		
 		this.driver=driver2;
 	}

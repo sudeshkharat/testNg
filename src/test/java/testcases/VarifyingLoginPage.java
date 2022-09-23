@@ -41,13 +41,7 @@ public class VarifyingLoginPage extends BaseClass {
 	}
 	@DataProvider
 	 public Object[][] testData() {
-	 /* Object[][] data=new Object[2][2];
-	  data[0][0]="testuser1";
-	  data[0][1]="secure123";
-	  data[1][0]="testuser2";
-	  data[1][1]="secure345";*/     // old data
-	  
-		
+	
 		Object[][] data=new Object[2][2];
 		  data[0][0]=Constants.username1;
 		  data[0][1]=Constants.password1;
@@ -58,36 +52,3 @@ public class VarifyingLoginPage extends BaseClass {
 	
 	
 }
-/*import org.openqa.selenium.By;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-
-import PageObjectModel.LoginPagePage_Objects;
-import Resources.BaseClass;
-
-public class VerifyLoginPage extends BaseClass {
- 
- @Test()
- public void logInVerification() throws IOException {
-  //Browser launch
-  //url launch
-  //username and password
-  //click on log in button
-  
-  driverInitialization();
-  //This drive has scope
-  driver.get("https://login.salesforce.com/?locale=in");
-  
-  LoginPagePage_Objects Lp=new LoginPagePage_Objects(driver);
-  Lp.enterUsername().sendKeys("test1");
-  Lp.enterPassword().sendKeys("secure123");
-  Lp.clickOnLogin().click();
-  
- 
-  
- }
- 
- 
- 
-
-*/
